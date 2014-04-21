@@ -4,7 +4,7 @@ r  = 999     	# define parameters
 m  = 1024   	# define parameters
 wM = 0.48		# difine probability of "not ideal coin flipping"
 
-20.times do |i|
+5.times do |i|
 
   #Berechnung yi
 
@@ -21,22 +21,23 @@ wM = 0.48		# difine probability of "not ideal coin flipping"
    # Ideale Münze
 
 	  if zu <= 0.5
-	  	ausgabe = "Zahl"
+	  	ideal_coin = "Zahl"
 	  else
-	  	ausgabe = "Kopf"
+	  	ideal_coin = "Kopf"
 	  end
 
   # Nicht Ideale Münze
 
 
-  if wM <= 0.5
-  	ausgabe = "Zahl"
-  else
-  	ausgabe = "Kopf"
-  end
+	  if wM <= 0.5
+	  	nideal_coin = "Zahl"
+	  else
+	  	nideal_coin = "Kopf"
+	  end
 
 
-  puts "Iteration #{i}:\t Yi is now #{yi} und Zufalszahl #{zu}, Laplace #{la}, #{ausgabe}"
+  puts "Iteration #{i}:\t Yi is now #{yi} und Zufalszahl #{zu}, Laplace #{la}"
+  puts "Münzwurf:\t Ideale Münze: #{ideal_coin}, Nicht Ideal: #{nideal_coin}"
 
 
 
