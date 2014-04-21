@@ -1,7 +1,8 @@
-yi = 5760    # define y0
-a  = 801     # define parameters
-r  = 123     # define parameters
-m  = 4096    # define parameters
+yi = 76548    	# define y0
+a  = 601     	# define parameters
+r  = 999     	# define parameters
+m  = 1024   	# define parameters
+wM = 0.48		# difine probability of "not ideal coin flipping"
 
 20.times do |i|
 
@@ -17,6 +18,26 @@ m  = 4096    # define parameters
 
   la = (6*zu).floor + 1
 
-  puts "Iteration #{i}:\t Yi is now #{yi} und Zufalszahl #{zu}, Laplace #{la}"
+   # Ideale Münze
+
+	  if zu <= 0.5
+	  	ausgabe = "Zahl"
+	  else
+	  	ausgabe = "Kopf"
+	  end
+
+  # Nicht Ideale Münze
+
+
+  if wM <= 0.5
+  	ausgabe = "Zahl"
+  else
+  	ausgabe = "Kopf"
+  end
+
+
+  puts "Iteration #{i}:\t Yi is now #{yi} und Zufalszahl #{zu}, Laplace #{la}, #{ausgabe}"
+
+
 
 end
