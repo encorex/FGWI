@@ -4,6 +4,7 @@
 - Calculate a random number
 - Output for Laplace distribution
 - Output for a perfect dice / non perfect dice
+
 ## Dijkstra's algorithm - Shortes way
 - based on http://rosettacode.org/wiki/Dijkstra's_algorithm#Ruby
 To Do
