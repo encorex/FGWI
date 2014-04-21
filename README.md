@@ -6,7 +6,8 @@
 - Output for a perfect dice / non perfect dice
 
 ## Dijkstra's algorithm - Shortes way (dijkstra.rb)
-- based on http://rosettacode.org/wiki/Dijkstra's_algorithm#Ruby
+- based on http://rosettacode.org/wiki/Dijkstra's_algorithm#Ruby#
+
 ### To Do
 - Better Output
 
