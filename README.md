@@ -5,9 +5,9 @@
 - Output for Laplace distribution
 - Output for a perfect dice / non perfect dice
 
-## Dijkstra's algorithm - Shortes way
+## Dijkstra's algorithm - Shortes way (dijkstra.rb)
 - based on http://rosettacode.org/wiki/Dijkstra's_algorithm#Ruby
-To Do
+### To Do
 - Better Output
 
 
