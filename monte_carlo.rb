@@ -1,8 +1,8 @@
-yi = 76548    	# define y0
-a  = 601     	# define parameters
-r  = 999     	# define parameters
+yi = 52781    	# define y0
+a  = 81    	# define parameters
+r  = 99     	# define parameters
 m  = 1024   	# define parameters
-wM = 0.48	# difine probability of "not ideal coin flipping"
+wM = 0.51	# difine probability of "not ideal coin flipping"
 
 5.times do |i|
 
