@@ -1,3 +1,5 @@
-## Some Computer Sience Stuff wirtten in RUBY
+#Computer Sience Stuff
 
-# TO DO
+## Monte Carlo Simulation
+
+### TO DO
