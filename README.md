@@ -11,7 +11,7 @@
 ## Newton algorithm (newton.rb)
 - calculate interest rate of an finance investment
 
-### To Do
-- Better Output
+:blub
+
 
 
