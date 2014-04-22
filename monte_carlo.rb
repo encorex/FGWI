@@ -6,7 +6,7 @@ wM = 0.51	# difine probability of "not ideal coin flipping"
 
 5.times do |i|
 
-  #Berechnung yi
+  #Calculation yi
 
   yi = ( yi * a + r) % m
 
