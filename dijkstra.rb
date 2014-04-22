@@ -53,6 +53,8 @@ class Graph
     "#<%s vertices=%p edges=%p>" % [self.class.name, @vertices.values, @edges] 
   end
 end
+
+# Input for distance example a to c 4
  
 g = Graph.new([ [:a, :c, 4],
                 [:a, :d, 7],
