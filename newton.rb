@@ -12,9 +12,10 @@ e = 100		# invest in period t4
 
 	n.times do |i| # loop for iteration
 
-		f 	= (a*z**4)-(b*z**3)-(c*z**2)-(d*z**1)-e
-		ff  = (a*4*z**3)-(b*3*z**2)-(c*2*z**1)-d
-		i_rate = z - (f/ff)
+		f 	= (a*z**4)-(b*z**3)-(c*z**2)-(d*z**1)-e   	#f
+		ff  = (a*4*z**3)-(b*3*z**2)-(c*2*z**1)-d 		#f'
+		i_rate = z - (f/ff)								# Newton Formula
 		z = i_rate
+
 	puts i_rate
 end
