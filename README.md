@@ -8,6 +8,9 @@
 ## Dijkstra's algorithm - Shortes way (dijkstra.rb)
 - based on http://rosettacode.org/wiki/Dijkstra's_algorithm#Ruby#
 
+## Newton algorithm (newton.rb)
+- calculate interest rate of an finance investment
+
 ### To Do
 - Better Output
 
